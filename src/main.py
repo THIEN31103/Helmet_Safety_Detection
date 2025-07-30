@@ -8,6 +8,8 @@ EPOCHS = 20
 IMG_SIZE = 64
 BATCH_SIZE = 32
 
+model.info()
+
 model.train(data = YAML_PATH ,
             epochs =EPOCHS ,
             batch = BATCH_SIZE ,
