@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-MODEL_PATH = 'E:\AIO\Helmet_Safety_Detection\yolov10\yolov10n.pt'
+MODEL_PATH = 'E:\AIO\Helmet_Safety_Detection\Data_test\test.pt'
 model = YOLO( MODEL_PATH )
 
 YAML_PATH ='E:\AIO\Helmet_Safety_Detection\Safety_Helmet_Dataset\data.yaml'
